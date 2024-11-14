@@ -1,0 +1,11 @@
+2024-11-14T11:06:36.419+05:30  INFO 14628 --- [Tcp-Client-Server] [main] t.c.TcpClientServerConnectionApplication : Starting TcpClientServerConnectionApplication using Java 17.0.12 with PID 14628 (D:\JJ\vv\sample\target\classes started by jeyar in D:\JJ\vv\sample)
+2024-11-14T11:06:36.424+05:30 DEBUG 14628 --- [Tcp-Client-Server] [main] t.c.TcpClientServerConnectionApplication : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-14T11:06:36.426+05:30  INFO 14628 --- [Tcp-Client-Server] [main] t.c.TcpClientServerConnectionApplication : No active profile set, falling back to 1 default profile: "default"
+2024-11-14T11:06:39.310+05:30  INFO 14628 --- [Tcp-Client-Server] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2024-11-14T11:06:39.340+05:30  INFO 14628 --- [Tcp-Client-Server] [main] t.c.TcpClientServerConnectionApplication : Started TcpClientServerConnectionApplication in 3.766 seconds (process running for 4.568)
+2024-11-14T11:06:39.372+05:30  INFO 14628 --- [Tcp-Client-Server] [main] c.t.c.service.server.ReactiveTcpServer   : TCP Server started on port; 5000
+2024-11-14T11:06:39.819+05:30  INFO 14628 --- [Tcp-Client-Server] [reactor-tcp-nio-3] com.tcp.connection.util.TcpClientUtil    : Connected to the server successfully.
+2024-11-14T11:06:39.819+05:30  INFO 14628 --- [Tcp-Client-Server] [reactor-tcp-nio-3] c.t.c.service.client.ReactiveTcpClient   : Message sent: Hello
+2024-11-14T11:06:39.833+05:30  INFO 14628 --- [Tcp-Client-Server] [reactor-tcp-nio-4] c.t.c.service.server.ReactiveTcpServer   : Server received: Hello
+2024-11-14T11:06:39.834+05:30  INFO 14628 --- [Tcp-Client-Server] [reactor-tcp-nio-4] c.t.c.service.server.ReactiveTcpServer   : Server sending acknowledgment: Hello
+2024-11-14T11:06:39.835+05:30  INFO 14628 --- [Tcp-Client-Server] [reactor-tcp-nio-3] com.tcp.connection.util.TcpClientUtil    : Client received acknowledgment: message is >>>: Hello
